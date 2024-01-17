@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: blueviolet;
+      font-family: 'Helvetica',sans-serif;display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .login{
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login">
+    <h1>Selamat datang</h1>
+  <form action="/action_page.php">
+    <label for="user">Username:</label>
+    <input type="text" id="fname" value=""><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" value=""><br>
+    <input type="submit" value="Submit">
+  </form>
+  </div>
+  <script>
+    if (username == user && password == 12345) {
+      alert("selamat anda berhasil masuk");
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
